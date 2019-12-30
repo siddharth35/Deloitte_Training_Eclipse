@@ -1,0 +1,18 @@
+Read Me:
+
+Initial Commit:
+Added Utility class and CodeDummy class
+
+Commit 1:
+Added static currencyConverter() and static series(int n) to CodeDummy
+
+Commit 2:
+Added EmailList Class
+
+Commit 3:
+Added add(Integer, Integer), add(Double, Double), add(String, String) to CodeDummy
+Added PlayCricket Class(Inheritance and Polymorphism Example)
+Added Test_InnerClass Class
+Added Test_LambdaExpression Class
+Added Calculate_LambdaExpression Class(Functional Programming Example)
+Added Test_ExceptionHandling Class

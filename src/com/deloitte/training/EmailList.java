@@ -1,4 +1,4 @@
-package com.deloitte.testing;
+package com.deloitte.training;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -23,7 +23,7 @@ public class EmailList {
 			maxsize = emails.size();
 		}
 	}
-	
+
 	/* Email Sorting */
 	public static void sortEmails(String[] mails) {
 		/* Sorting mails as per Domain */
@@ -42,6 +42,7 @@ public class EmailList {
 			}
 		}
 	}
+
 	public static void printList() {
 		/* Designing the Printing Format */
 		String[][] pf = new String[EmailList.maxsize + 1][EmailList.sites.size()];
@@ -63,6 +64,7 @@ public class EmailList {
 			System.out.println();
 		}
 	}
+
 	public static ArrayList<EmailList> getList() {
 		return list;
 	}
@@ -71,5 +73,5 @@ public class EmailList {
 	public String toString() {
 		return site + " : " + emails;
 	}
-	
+
 }

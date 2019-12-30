@@ -1,4 +1,4 @@
-package com.deloitte.testing;
+package com.deloitte.training;
 
 import java.io.IOException;
 
@@ -19,7 +19,7 @@ public class Utility {
 			} while (k != 10);
 			return out;
 		} catch (IOException e) {
-			return "";
+			return null;
 		}
 	}
 

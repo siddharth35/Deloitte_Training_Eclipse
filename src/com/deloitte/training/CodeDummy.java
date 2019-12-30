@@ -1,8 +1,8 @@
-package com.deloitte.testing;
+package com.deloitte.training;
 
 public class CodeDummy {
 	public static void main(String[] args) {
-		
+
 	}
 
 	/* Currency Converter */
@@ -57,6 +57,17 @@ public class CodeDummy {
 		}
 	}
 
-	
-	
+	/* Polymorphism-Overloading Example */
+	Integer add(Integer a, Integer b) {
+		return a + b;
+	}
+
+	Double add(Double a, Double b) {
+		return a + b;
+	}
+
+	String add(String a, String b) {
+		return a + b;
+	}
+
 }
