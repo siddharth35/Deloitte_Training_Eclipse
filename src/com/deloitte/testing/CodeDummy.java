@@ -2,11 +2,10 @@ package com.deloitte.testing;
 
 public class CodeDummy {
 	public static void main(String[] args) {
-		currencyConverter();
-		series(Integer.parseInt(Utility.read("Enter n: ")));
+		
 	}
 
-/*Currency Converter*/
+	/* Currency Converter */
 	public static void currencyConverter() {
 		boolean run = true;
 		while (run) {
@@ -48,7 +47,8 @@ public class CodeDummy {
 			System.out.println("Not a Valid Number");
 		}
 	}
-/*Series*/
+
+	/* Series */
 	public static void series(int n) {
 		String out = "";
 		for (int i = 1; i <= n; i++) {
@@ -57,4 +57,6 @@ public class CodeDummy {
 		}
 	}
 
+	
+	
 }

@@ -5,3 +5,8 @@ Added Utility class and CodeDummy class
 
 Commit 1:
 Added currencyConverter() and series() to CodeDummy
+
+Commit 2:
+Added EmailList Class
+Added sortEmails() to CodeDummy
+Added isPrime() to Utility
